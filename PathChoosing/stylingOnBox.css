@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg: #f7f9fc;
+    --text: #1c1c1c;
+    --accent: #0066cc;
+    --subtle: #666;
+    --card-bg: #ffffff;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+header {
+    background-color: var(--accent);
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+main {
+    max-width: 860px;
+    margin: 3rem auto;
+    background: var(--card-bg);
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+h2 {
+    font-size: 1.9rem;
+    color: var(--accent);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 0.4rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    color: #444;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.6rem;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.95rem;
+    color: var(--subtle);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #e0e0e0;
+    ;
+}
+
+span {
+    margin-left: 1.2rem;
+    color: #555;
+}
+
+.back-btn,
+#Chatgpt {
+    background-color: #f0f4ff;
+    border: 2px solid #4e7eff;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.back-btn,
+#Chatgpt:hover {
+    transform: translateY(-5px);
+    background-color: #e5edff;
+}
